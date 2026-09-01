@@ -10,4 +10,4 @@
 
 | # | Change | Spec | Status | Depends On |
 |---|--------|------|--------|------------|
-| 0001 | [env-provider-extension](changes/0001-env-provider-extension.md) | [env-provider](specs/env-provider/) | draft | — |
+| 0001 | [env-provider-extension](changes/0001-env-provider-extension.md) | [env-provider](specs/env-provider/) | complete | — |

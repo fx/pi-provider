@@ -13,5 +13,5 @@ changes:
     path: changes/0001-env-provider-extension.md
     description: Implement the environment-configured provider extension and its npm packaging and release automation.
     spec: env-provider
-    status: draft
+    status: complete
     depends_on: []

@@ -1,0 +1,43 @@
+{
+  "name": "pi-provider",
+  "version": "0.1.0",
+  "description": "Register a pi model provider from environment variables — no models.json edit required.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fx/pi-provider.git"
+  },
+  "homepage": "https://github.com/fx/pi-provider#readme",
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "provider",
+    "openai-compatible"
+  ],
+  "type": "module",
+  "main": "./index.ts",
+  "files": [
+    "index.ts"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.84.4",
+    "@types/node": "^22.19.0",
+    "typescript": "^5.9.3"
+  }
+}

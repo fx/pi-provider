@@ -5,7 +5,7 @@
 Implements the environment-configured provider extension and the packaging and release automation needed to ship it as `pi-provider` on the public npm registry. This is the first change in the repository; `main` currently contains documentation only.
 
 **Spec:** [Environment-Configured Provider](../specs/env-provider/)
-**Status:** draft
+**Status:** complete
 **Depends On:** —
 
 ## Motivation
@@ -67,16 +67,16 @@ A single-file extension at the package root, a manifest that ships that file ver
 
 ## Tasks
 
-- [ ] Implement and ship the extension
-  - [ ] Add `index.ts` implementing the spec's registration behavior, configuration contract, model resolution, and default expansion
-  - [ ] Add the package manifest publishing as `pi-provider` with the entry point and `files` list pointing at `index.ts`
-  - [ ] Add TypeScript configuration and a type check script
-  - [ ] Add the pull-request CI workflow running the type check
-  - [ ] Add release and publish automation, publishing from the release tag
-  - [ ] Add `LICENSE` and supporting repository metadata files
-  - [ ] Replace the placeholder `README.md` with install and usage documentation linking to the spec
-  - [ ] Verify the published tarball contents before release
-  - [ ] Flip this document's status to `complete` and tick these tasks in the same PR
+- [x] Implement and ship the extension
+  - [x] Add `index.ts` implementing the spec's registration behavior, configuration contract, model resolution, and default expansion
+  - [x] Add the package manifest publishing as `pi-provider` with the entry point and `files` list pointing at `index.ts`
+  - [x] Add TypeScript configuration and a type check script
+  - [x] Add the pull-request CI workflow running the type check
+  - [x] Add release and publish automation, publishing from the release tag
+  - [x] Add `LICENSE` and supporting repository metadata files
+  - [x] Replace the placeholder `README.md` with install and usage documentation linking to the spec
+  - [x] Verify the published tarball contents before release
+  - [x] Flip this document's status to `complete` and tick these tasks in the same PR
 
 ## Open Questions
 
