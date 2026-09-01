@@ -43,7 +43,7 @@ pi --extension ./index.ts --provider my-provider --model my-model-id
 | `PI_PROVIDER_MODELS` | no | JSON array string of full model definitions. Takes precedence over `PI_PROVIDER_MODEL_IDS` when both are set. |
 
 Ids given via `PI_PROVIDER_MODEL_IDS` are expanded with placeholder cost, context window,
-and reasoning metadata — see [`docs/spec.md`](docs/spec.md) for the exact defaults. Use
+and reasoning metadata — see [`docs/specs/env-provider/index.md`](docs/specs/env-provider/index.md) for the exact defaults. Use
 `PI_PROVIDER_MODELS` when that metadata needs to be accurate.
 
 ## License
