@@ -101,7 +101,7 @@ The extension resolves its configuration from the process environment at load ti
 
 ### Packaging
 
-The package is published as `pi-provider` on the public npm registry. There is no build step: pi loads extension `.ts` files directly at runtime through its jiti-based loader, so the package ships `index.ts` as-is and has no `dist/`.
+Packaging and release decisions are owned by [0001-env-provider-extension](../../changes/0001-env-provider-extension.md#functional-requirements) and are not restated here.
 
 ### Usage
 
